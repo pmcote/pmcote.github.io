@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(236, 255, 245);
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  line-height: 46px;
+  font-size: 52px;
+  margin: 0 0 23px 0;
+}
