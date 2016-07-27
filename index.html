@@ -1,68 +1,207 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Paige Cote</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<!-- <link rel="stylesheet" href="assets/css/flickity.css" /> -->
+		<link rel="stylesheet" href="https://npmcdn.com/flickity@2.0/dist/flickity.css" media="screen">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" media="screen">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
 
-    <title>Paige's Page</title>
-    <meta name="description" content="Paige Cote's personal website">
-    <meta name="author" content="Paige Cote">
+		<!-- Wrapper-->
+			<div id="wrapper">
 
-    <link rel="stylesheet" href="/bootstrap-3.3.5/css/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="page.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand">Paige Cote</a>
+				<!-- Nav -->
+					<nav class="nav" id="nav">
+						<a class="nav-item" href="#me"><p>Paige Coté</p></a>
+						<a class="nav-item" href="#work"><p class="small-nav">Portfolio</p></a>
+						<a class="nav-item" href="#contact"><p class="small-nav">Contact</p></a>
+					</nav>
 
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active">
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="Fall2015Resume_PaigeCote.pdf">Resume</a>
-          </li>
-          <li>
-            <a href="coming.html">Portfolio</a>
-          </li>
-          <li>
-            <a href="coming.html">Writing</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
-      <h3>Hello!</h3>
-      <p>Welcome to my humble first pass at having a web presence.
-        This site is currently under construction, so if you find any bugs or have content suggestions/requests please let me know at pmcote1[at]gmail[dot]com</p>
+				<!-- Main -->
+					<div id="main">
 
-      <h4>Where I Am Now</h4>
-      <p>Physically, for the next few months, I’m located in São Paulo, Brazil while on Leave of Absence from my usual occupation as a student at Olin College.
-         I came here to work for Insper, a business school in São Paulo that is in the middle of starting a brand new engineering school with a project based curriculum.
-         My work here involves collaborating with students and professors in the engineering school on various projects like assisting with design of their computing curriculum, organizing <a href="http://pmcote.github.io/PersonalWebsiteHackathon">hackathons</a>, and organizing their first student exposition.
-      </p>
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Paige Coté</h1>
+									<p>Design and Computer Engineering</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+									<img src="images/Paige.jpg" alt="" />
+								</a>
+							</article>
 
-      <h4>Where I'm Going Next</h4>
-      <p>
-        I will return to Olin to complete my remaining two semesters in Sping 2016.
-        <strong>I’m currently searching for internships for Summer 2016, in the development or product management space.</strong>
-        If you’re interested in hiring me, take a look at my <a href="Fall2015Resume_PaigeCote.pdf">resume</a>.
-      </p>
-    </div>
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Portfolio</h2>
+								</header>
+								<p>
+									This is a selection of my work that relates to my design and research skills. My formal degree is in Engineering with a concentration in Computation, from Olin College. While at Olin, I also fell in love with user-oriented design, and have been pursuing oportunities to develop my skillset as a designer both in and out of school.
+								</p>
+								<section>
+									<div class="12u 12u$(mobile)">
+										<div class="carousel"
+											data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+											<div class="carousel-cell">
+											<img src="images/ADE/Tube_Journey.jpg" alt="Design studio working." />
+											</div>
+											<div class="carousel-cell">
+											<img src="images/ADE/Handling_Tubes.jpg" alt="Woman handling microfluidic tubes." />
+											</div>
+											<div class="carousel-cell">
+											<img src="images/ADE/Tube_Holder.jpg" alt="Microfluidic tube holder." />
+											</div>
+											<div class="carousel-cell">
+											<img src="images/ADE/Loading_Centrifuge.jpg" alt="Loading tubes into centrifuge." />
+											</div>
+										</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-  </body>
+										<h3 class="project-title">Affordable Design and Entrepreneurship</h3>
+										<p>
+											I completed the first semester of Affordable Design and Entrepreneurship as my engineering capstone during the Spring 2016 semester at Olin College. I was on the Global Health team, which worked with several partners including Daktari Diagnostics in Cambridge and Whitesides Research Lab at Harvard to develop and prototype an affordable sickle cell diagnostic testing device. </br>
+
+											I served as the product manager, helping my team keep track of meetings and deliverables, leading the development of design review presentations, organizing and prioritizing our work, and facilitating regular team communication and feedback. In addition I served as the hardware prototyping lead and a member of the software team, developing computer vision software and a lighting system to identify positive and negative blood samples. I also was one of two members of the design team, assisting with interviews with health professionals, developing sketches and models, and defining the user experience for clinic workers and professionals. </br>
+										</p>
+								 </div>
+									<div class="12u 12u$(mobile)">
+										<div class="carousel"
+											data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+											<div class="carousel-cell">
+											<img src="images/DesignForEdu/FeedbackApp.png" alt="Before pic of Narcan kit, super messy with a crumpled brochure and some type of medical device." />
+											</div>
+											<div class="carousel-cell">
+											<img src="images/DesignForEdu/BehaviorApp.png" alt="Before pic of Narcan kit, super messy with a crumpled brochure and some type of medical device." />
+											</div>
+										</div>
+
+										<h3 class="project-title">Design and Prototyping for Education</h3>
+										<p>
+										 In spring 2016 I was a member of a pilot class at Olin in conjunction with an startup called School Shaped. The goal was to engage students who were interesting in developing and designing products in the education space, and get them into schools in an iterative user-focused design practice. Over the course of the semester I worked on a two person team to complete two design cycles were we talked to teachers and observed in classrooms, came up with initial designs, got direct feedback on our potential solutions, and then completed basic prototypes using Node.js. We also read literature related to the educational space and maintained a <a href='http://schoolshaped.tumblr.com/'>blog</a> to reflect on our efforts.
+										</p>
+									</div>
+									<div class="12u 12u$(mobile)">
+										<h3 class="project-title">Qualitative Engineering Education Research</h3>
+										<p>
+											As a part of Olin’s Engineering Education lab since my first year at Olin, I completed two research credits every semester from Spring 2013 to Fall 2014. My work in the engineering education space focused primarily on qualitative methods of data analysis in the space of student motivation and self-directed learning. I have also had exposure to many different papers and techniques through the labs weekly reading and discussions.</br>
+
+											With two teammates in 2014, I completed a work-in-progress paper on the relationship between challenges, reflection, and self-directed learning. We used grounded theory to analyze the responses of ten students studying at two institutions. Each student completed twelve surveys administered about their experiences during the first two years of engineering school. Our paper was accepted and presented at the 2014 <a href="http://fie2014.org/">IEEE Frontiers In Education Conference</a> in Madrid, Spain.
+										</p>
+									</div>
+									<div class="12u 12u$(mobile)">
+										<h3 class="project-title">Qualitative Methods In Practice</h3>
+										<p>
+											In Spring 2016, I was part of a pilot offering of a qualitative methods class taught at Olin by Mel Chua. Instead of taking the traditional approach the learning qualitative methods, we took a project based approach and were thrown into qualitative practices immediately. Exercises in the class included everything from dance exercises designed to teach us about observation to attending multiple social dancing events for participant observation and interview sessions. I culminated this class by interviewing three dancers about how they form their dance identities in preparation for an event, and creating collages and an informal paper to represent this work. You can see more details about what we did in this class, as <a href='http://blog.melchua.com/?s=QUALMIP'>blogged by Mel</a>.
+										</p>
+									</div>
+									<h3>Hackathons</h3>
+									<p>Selected hackathon projects in the healthcare space.</p>
+									<div class="row">
+										<div class="12u 12u$(mobile)">
+											<div class="carousel"
+											  data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+												<div class="carousel-cell">
+											  <img src="images/OverDope/Before_Mess.jpg" alt="Before pic of Narcan kit, super messy with a crumpled brochure and some type of medical device." />
+												</div>
+												<div class="carousel-cell">
+												<img src="images/OverDope/Team_Work.jpg" alt="Team working during the hackathon." />
+												</div>
+												<div class="carousel-cell">
+												<img src="images/OverDope/After_Design.jpg" alt="The final product of the hackathon, new easy to read brochure and components organized in case." />
+												</div>
+											</div>
+
+										<h5 class="project-title">OverDope</h3>
+										<p>
+											At MIT’s Blue Button Hack, my team ended up completely ignoring the API the hackathon was structured around. Instead we worked with our team leader, who volunteered with opiate outreach centers around Boston to improve the design of the Narcan kits that outreach centers hand out to opiate users. Narcan (Naloxone) is a opioid blocker that comes in a nasal spray. It can instantly stop an opiate overdose when administered quickly. Unfortunately, the kits must come disassembled due to regulation, and the instructions that came with the kit were difficult to understand. This is a huge issue because opiate overdose and the corresponding respiratory depression can lead to lasting brain damage in less than a minute. Our goal for the weekend was to lower the time it takes to put Narcan kits together.</br>
+
+											We interviewed several doctors over the course of the weekend, and learned about the problem area and current barriers to Narcan distribution. At the beginning of the hackathon, we took some of the Narcan kits and gave them to medical students at Tufts and timed them on how long it took to put them together as a best-case baseline. Some students took more than one minute and thirty seconds. By the end of the hackathon the average time was down to thirty seconds, potentially saving the patient from permanent brain damage or death.
+										</p>
+									 </div>
+										<div class="12u 12u$(mobile)">
+											<div class="carousel"
+											  data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+												<div class="carousel-cell">
+											  <img src="images/ByPatient/ByPatientTeam.jpg" alt="team pic" />
+												</div>
+												<div class="carousel-cell">
+												<img src="images/ByPatient/Working.jpg" alt="team pic" />
+												</div>
+											</div>
+
+										<h3 class="project-title">ByPatient</h3>
+										<p>In fall of 2013 I attended my first MIT Hacking Medicine Hackathon and
+										 completely fell in love with the intersection of the tech and medical space.
+										 I worked with a multi-diciplinary team of undergraduates including engineers,
+										 nursing students, and scientists.  We worked together over a weekend to research,
+										 design, and prototype a simple sensor system to prevent overdoses in patients who
+										 have access self-controlled opiate administration in hospitals. We were able to
+										 create a functional prototype and get excellent feedback from medical professionals
+										 at the hackathon, eventually winning first place.</p>
+									 </div>
+										 <div class="12u 12u$(mobile)">
+											 <div class="carousel"
+ 											  data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+ 												<div class="carousel-cell">
+ 											  <img src="images/LeanTransport/Team_Working.jpg" alt="Team working" />
+ 												</div>
+ 												<div class="carousel-cell">
+ 												<img src="images/LeanTransport/Dispatch.jpg" alt="Dispatch center at the hospital" />
+ 												</div>
+												<div class="carousel-cell">
+ 												<img src="images/LeanTransport/Whole_Team.jpg" alt="Team picture" />
+ 												</div>
+ 											</div>
+										 <h3 class="project-title">Lean Transport</h3>
+ 										<p>At the Fall 2014 Brigham and Women’s Hackathon, I worked with a team to improve patient transport in hospitals. Patient transport is a huge pain point for hospitals and their patients. As hospitals transition to a system where patients satisfaction and outcome has more ability to impact their compensation, it will become an even more pressing issue.</br>
+
+											 We worked over the weekend to interview doctors and staff at the hospital who were involved in patient transport. The current system involves a call center in the basement that communicates with over utilized workers who actually transport the patients. Backlogs and delays in scan scheduling can often result in patients waiting days for scans and then sometimes being left on gurneys for hours outside the scan centers.</br>
+
+											 During the weekend, my team developed a business case and an initial software prototype that would allow for a more streamlined process of hospitals and patients. Our system utilized the location capabilities of modern smartphones, and a centralized dashboard system to improve outcomes. Development of this product has continued after this hackathon.</br>
+										 </p>
+									 </div>
+									</div>
+								</section>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Under Construction. . .</h2>
+								</header>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<!-- <div id="footer">
+						<ul class="copyright">
+							<li>&copy; Paige Cote.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div> -->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="https://npmcdn.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+
+	</body>
 </html>
